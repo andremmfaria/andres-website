@@ -8,26 +8,37 @@
     <title>André Faria</title>
 </head>
 <body>
-    <header class="menu-head">
-       <!--First part of menu contain photo, name and name in  main social medias--> 
+    <header>
+      <div class="menu-head">
+        <!--First part of menu contain photo, name and name in  main social medias--> 
         <img src="/img/avatar.png" alt="Foto André Faria">
         <h1>André Faria</h1>
         <h2>@andremmfaria</h2>
         <p>DevOps Enthusiast | Dockermancer | Life automator | Someone who just knows some Linux commands</p>
-      <!--Second part of menu location, email and github-->
-        <ul style="padding-left:0%; list-style-type:none;">
-        <li><span style="font-size: 24px; color: #d3d4d6;"><i class="fas fa-map-marked-alt"></i></span><span style="font-size: 18px; margin-left: 5%;">Ireland</span></li>
-        <li><span style="font-size: 24px; color: #d3d4d6;"><i class="fas fa-envelope"></i></span><span style="font-size: 18px; margin-left: 5%;">andremmfaria@gmail.com</span></li>
-        <li><span style="font-size: 24px; color: #d3d4d6;"><i class="fab fa-github"></i></span><span style="font-size: 18px; margin-left: 5%;">andremmfaria</span></li>
-      </ul>
-      <div class="menu-bottom">
-        <span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-linkedin"></i></span>
-        <span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-twitter-square"></i></span>
-        <span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-facebook-square"></i></span>
 
+        <!--Second part of menu location, email and github-->
+        <ul id="myLinks" style="padding-left:0%; list-style-type:none;">
+          <li><a href="https://goo.gl/maps/7Bkf1ExwtghsC8Qy8" target="_blank" rel="noopener noreferrer"><span style="font-size: 24px; color: #d3d4d6;"><i class="fas fa-map-marked-alt"></i></span><span style="font-size: 18px; margin-left: 5%;">Ireland</span></li></a>
+          <li><a href="mailto:andremmfaria@gmail.com" target="_blank"><span style="font-size: 24px; color: #d3d4d6;"><i class="fas fa-envelope"></i></span><span style="font-size: 18px; margin-left: 5%;">andremmfaria@gmail.com</span></li></a>
+          <li><a href="https://github.com/andremmfaria" target="_blank"><span style="font-size: 24px; color: #d3d4d6;"><i class="fab fa-github"></i></span><span style="font-size: 18px; margin-left: 5%;">andremmfaria</span></li></a>
+        </ul>
       </div>
+      <!--Menu footer with social medias links-->
+      <div class="menu-bottom">
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/andremmfaria/" target="_blank"><span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-linkedin"></i></span></a>
+          <a href="https://twitter.com/andremmfaria" target="_blank"><span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-twitter-square"></i></span></a>
+          <a href="https://www.facebook.com/andremmfaria" target="_blank"><span style="font-size: 36px; color: #f0f1f4;"><i class="fab fa-facebook-square"></i></span></a>
+        </div>
+      </div>
+
+      <!--responsive menu hamburguer-->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </header>
-    <main></main>
+    <main>
+      
+    </main>
     <footer></footer>
 </body>
+<script src="/js/style.js"></script>
 </html>
