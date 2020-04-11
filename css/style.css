@@ -86,19 +86,28 @@ main{
   height: 5%;
   position:absolute;
   bottom:0;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
 }
 .menu-bottom .social-media{
   align-items: center;
-  display: flex;
+  display: flex; 
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+ 
 }
 .menu-bottom .social-media a{
-  padding: 1% 1%;
+  padding: 0 5px;
+}
+.menu-bottom .social-media i{
+  
 }
 .menu-bottom .social-media i:hover{
   color: #899593;
+  transform: scale(1.3);
+  
 }
 
 
