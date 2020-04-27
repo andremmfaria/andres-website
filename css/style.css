@@ -7,17 +7,17 @@ body{
 }
 /*--------------------------------------------------------------------Menu header*/
 header{
-  width: 25%;
+  width: 30%;
   float: left;
   
 }
 main{
-  width: 75%;
+  width: 70%;
   float: right;
 }
 
 .menu-head{
-    width: 25%;
+    width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     height: 100%;
@@ -87,7 +87,7 @@ main{
 /*-------------------------------------------------------------------bottom-menu and social media*/
 .menu-bottom{
   background-color: #030303;
-  width: 25%;
+  width: 30%;
   height: 50px;
   position: fixed;
   bottom:0;
@@ -313,7 +313,8 @@ main .experience{
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+
   .menu-head h1, h2, p{
     width: 80%;
   }
@@ -328,6 +329,18 @@ main .experience{
   }
   .menu-head ul li a{
     font-size: 1.63vh;
+  }
+  
+}
+@media screen and (min-width: 769px) and (orientation: portrait){
+  .menu-head h1{
+    font-size: 24px;
+  }
+  .menu-head h2{
+    font-size: 20px;
+  }
+  .menu-head ul li a{
+    font-size: 14px;
   }
   
 }
