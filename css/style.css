@@ -206,29 +206,16 @@ main .experience{
   
 
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color:transparent;
+/*------------------------------------------------------------------------------Collapsible */
+#more {display: none;}
+#myBtn{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding-top: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-.collapsible:after {
-  content: '\23F7  More \23F7'; /* Unicode character for "plus" sign (+) */
-  font-size: 1.85vh;
-  color: #2c3632;
-  float: center ;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: '\23F6  Less \23F6'; /* Unicode character for "minus" sign (-) */
-}
 /*------------------------------------------------------------------------------Footer*/
 
 .footer{
